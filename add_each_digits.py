@@ -1,4 +1,4 @@
-### 加總整數每一個數 ### 
+### 加總整數每一個數 ###
 
 def sumDigit(number):
 
@@ -7,14 +7,14 @@ def sumDigit(number):
 
     total = 0
 
-    while number > 0 : 
-        
-        digit = number % 10
-        total = total + digit
+    while number > 0 :
+
+        digit = number % 10                # 把每一位都取餘數
+        total = total + digit              # 最後把他加起來
         number = number // 10
 
 
-    return total 
+    return total
 
 
 num = eval(input(" 請輸入數字 : "))
