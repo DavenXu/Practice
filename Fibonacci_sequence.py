@@ -4,12 +4,12 @@ numberOfElemnet = 2
 ireation = 10
 number = []
 
-for i in range(2):
+for i in range(numberOfElemnet):
     
     value = int(input(" 請輸入你想輸入的數字 : "))
     number.append(value)
 
-for i in range(2,10):
+for i in range(numberOfElemnet, ireation):
     value2 = number[ i-1 ] + number[ i-2 ]
     number.append(value2)
 
