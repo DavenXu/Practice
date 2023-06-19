@@ -1,4 +1,4 @@
-## Find Max Raw Test Practice ##
+## Find Max Raw Test ##
 
 import numpy as np 
 
