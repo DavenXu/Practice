@@ -1,4 +1,4 @@
-## Sudoku Game ## 
+## Sudoku Game  0619 ## 
 
 from tkinter import *
 import numpy as np 
@@ -8,7 +8,7 @@ class Sudoku :
     def __init__(self):
 
         ## Create Sudoku game rules ## 
-
+        
         ## Create UI in windows ##
         windows = Tk()
         windows.title(" Sudoku GUI ")
